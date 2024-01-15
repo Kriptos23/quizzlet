@@ -50,7 +50,7 @@ class _QuizPageState extends State<QuizPage> {
 
       if(quizBrain.isFinished(quizBrain.getQNum(), lastOne)){
         Alert(context: context, title: "You finished the quiz!", desc: "You "
-            "got $cor right and $inc incorrect")
+            "got $cor right and $inc incorrect ")
             .show();
         quizBrain.reset();
         icons.clear();
